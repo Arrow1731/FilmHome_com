@@ -4,14 +4,44 @@
 
 
 @font-face {
-    font-family: 'Lato';
-    src: url('./Fonts/Lato-Bold.ttf');
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-Regular.ttf');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Lato';
-    src: url('./Fonts/Lato-Regular.ttf');
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-Medium.ttf');
     font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-Bold.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-ExtraBold.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-ExtraLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Manrope';
+    src: url('./Fonts/Manrope-SemiBold.ttf');
+    font-weight: 600;
     font-style: normal;
 }
