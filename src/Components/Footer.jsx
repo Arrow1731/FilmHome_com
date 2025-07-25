@@ -17,12 +17,14 @@ function Footer() {
         </div>
       </div>
 
-      <div className="bg-[#000] w-full h-[505px] py-[100px] my-[150px]">
-        {/* FOOTER */}
 
-        <div className="container flex justify-between items-center text-[#fff]">
-          <p className="text-[18px] font-Manrope font-semibold">Home</p>
+      {/* FOOTER */}
+
+      <div className="bg-[#000] w-full h-[505px] py-[100px] my-[150px]">
+
+        <div className="container flex justify-between items-center text-[#fff] footer_links_ddd">
           <div>
+            <p className="text-[18px] font-Manrope font-semibold">Home</p>
             <ul>
               <a href="#">
                 <li>Categories</li>
@@ -35,8 +37,8 @@ function Footer() {
               </a>
             </ul>
           </div>
+          <div>
             <p className="text-[18px] font-Manrope font-semibold">Movies</p>
-          <div>
             <ul>
               <a href="#">
                 <li>Gernes</li>
@@ -52,8 +54,8 @@ function Footer() {
               </a>
             </ul>
           </div>
+          <div>
             <p className="text-[18px] font-Manrope font-semibold">Series</p>
-          <div>
             <ul>
               <a href="#">
                 <li>Gernes</li>
@@ -69,8 +71,8 @@ function Footer() {
               </a>
             </ul>
           </div>
+          <div>
             <p className="text-[18px] font-Manrope font-semibold">Anime</p>
-          <div>
             <ul>
               <a href="#">
                 <li>Gernes</li>
@@ -86,22 +88,16 @@ function Footer() {
               </a>
             </ul>
           </div>
-            <p className="text-[18px] font-Manrope font-semibold">Support</p>
           <div>
+            <p className="text-[18px] font-Manrope font-semibold">Support</p>
             <ul>
               <a href="#">
                 <li>Contact Us</li>
               </a>
-              {/* <a href="#">
-                <li>SAlom</li>
-              </a>
-              <a href="#">
-                <li>SAlom</li>
-              </a> */}
             </ul>
           </div>
-            <p className="text-[18px] font-Manrope font-semibold">Subscription</p>
           <div>
+            <p className="text-[18px] font-Manrope font-semibold">Subscription</p>
             <ul>
               <a href="#">
                 <li>Plans</li>
@@ -109,13 +105,10 @@ function Footer() {
               <a href="#">
                 <li>Features</li>
               </a>
-              {/* <a href="#">
-                <li>SAlom</li>
-              </a> */}
             </ul>
           </div>
-            <p className="text-[18px] font-Manrope font-semibold">Connect With Us</p>
           <div>
+            <p className="text-[18px] font-Manrope font-semibold">Connect With Us</p>
             <ul>
               <a href="#">
                 <li>SAlom</li>
@@ -127,6 +120,18 @@ function Footer() {
                 <li>SAlom</li>
               </a>
             </ul>
+          </div>
+        </div>
+
+        <hr className="container mt-[100px] text-[#808080]" />
+
+        <div className="container flex justify-between items-center text-[#808080] text-[18px] font-Manrope font-regular mt-[24px]">
+          <p>@2023 streamvib, All Rights Reserved</p>
+
+          <div className="flex gap-[40px]">
+          <a href="#">Terms of Use</a>|
+          <a href="#">Privacy Policy</a>|
+          <a href="#">Cookie Policy</a>
           </div>
         </div>
       </div>

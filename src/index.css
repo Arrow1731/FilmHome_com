@@ -54,3 +54,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+body{
+    background-color: #1E1E1E;
+}
+
+.footer_links_ddd{
+    ul{
+        margin-top: 30px;
+    }
+}

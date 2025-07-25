@@ -5,7 +5,7 @@ import SearchIcon from "../assets/search.svg";
 
 function Navigation() {
   return (
-    <div className="">
+    <div className="text-[#fff]">
       <nav className="container py-[20px] flex justify-between items-center">
         <NavLink exact to="/" activeClassName="active">
           Logo
