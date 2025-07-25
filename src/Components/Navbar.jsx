@@ -17,7 +17,7 @@ function Navigation() {
                 Home
               </NavLink>
               <NavLink className='font-Manrope font-regular text-[18px] text-[#fff]' to="/Movies_Shows" activeClassName="active">
-                Movies & Shows
+                Movies & Series
               </NavLink>
               <NavLink className='font-Manrope font-regular text-[18px] text-[#fff]' to="/Support" activeClassName="active">
                 Support
