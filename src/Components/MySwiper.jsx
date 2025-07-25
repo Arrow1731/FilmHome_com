@@ -23,6 +23,7 @@ export default function MySwiper() {
       navigation={true}
       modules={[Pagination, Navigation]}
       className="mySwiper"
+      loop={true}
     >
       <SwiperSlide>
         <div>
