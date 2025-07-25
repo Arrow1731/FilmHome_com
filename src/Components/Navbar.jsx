@@ -10,8 +10,8 @@ function Navigation() {
         Home
       </NavLink>
       <span className="flex gap-[40px] items-center">
-        <NavLink className='font-lato font-bold text-[#424551]' to="/about" activeClassName="active">
-          About
+        <NavLink className='font-lato font-bold text-[#424551]' to="/Movies_Shows" activeClassName="active">
+          Movies & Shows
         </NavLink>
         <NavLink className='font-lato font-bold text-[#424551]' to="/contact" activeClassName="active">
           Contact
