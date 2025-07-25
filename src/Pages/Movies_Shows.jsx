@@ -75,7 +75,7 @@ export default class Movie extends Component {
               </button>
 
               <div className="mb-[65px]">
-                <h1 className="text-white text-[38px] font-bold">Our Genres</h1>
+                <h1 className="text-white text-[40px] font-bold">Our Genres</h1>
               </div>
 
               <div className="flex justify-between">
