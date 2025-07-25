@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="bg-[#f7bf9f]">
+    <div className="bg-[#f8f9fa]">
     <nav className="container py-[20px] flex justify-between items-center">
 
       <NavLink exact to="/" activeClassName="active">
