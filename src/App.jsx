@@ -7,15 +7,16 @@ import Support from "./Pages/Support";
 import NotFound from "./Pages/NotFound";
 import Subscriptions from "./Pages/Subscriptions";
 import Login from "./Pages/Login";
+// import Categories from "./Components/Categories";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      
+
       <Routes>
-        <Route path="/" element={<Home />} />        
-        <Route path="/Movies_Shows" element={<Movies_Shows />} />        
+        <Route path="/" element={<Home />} />
+        <Route path="/Movies_Shows" element={<Movies_Shows />} />
         {/* 404 sahifa uchun */}
         <Route path="*" element={<NotFound />} />
         <Route path="/support" element={<Support />} />

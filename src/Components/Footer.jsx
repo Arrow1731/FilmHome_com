@@ -4,7 +4,7 @@ import FooterImg from "../assets/footer_img.png";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="mt-[150px]">
       <div className="container">
         <div className="footer_img flex justify-between items-center px-[80px] text-[#fff]">
           <div>
@@ -20,7 +20,7 @@ function Footer() {
 
       {/* FOOTER */}
 
-      <div className="bg-[#000] w-full h-[505px] py-[100px] my-[150px]">
+      <div className="bg-[#000] w-full h-[505px] py-[100px] mt-[150px]">
 
         <div className="container flex justify-between items-center text-[#fff] footer_links_ddd">
           <div>

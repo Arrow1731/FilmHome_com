@@ -64,3 +64,28 @@ body{
         margin-top: 30px;
     }
 }
+
+.header_nav_img{
+    width: 100%;
+    height: 860px;
+    background: url('./assets/container_header.png') no-repeat center center;
+}
+
+.fff_eee{
+    background-image: url('./assets/Card.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 512px;
+    height: 283px;
+    padding: 50px 50px;
+    border-radius: 25px;
+}
+
+
+/* Questions */
+
+.details_ask hr{
+    width: 750px;
+    /* background-color: #E50000; */
+    margin-top: 20px;
+}

@@ -5,7 +5,7 @@ import SearchIcon from "../assets/search.svg";
 
 function Navigation() {
   return (
-    <div className="text-[#fff]">
+    <div className="text-[#fff] header_nav_img">
       <nav className="container py-[20px] flex justify-between items-center">
         <NavLink exact to="/" activeClassName="active">
           Logo
@@ -13,7 +13,7 @@ function Navigation() {
         <div className="max-w-[510px] w-full bg-[#0F0F0F] rounded-[10px] px-[34px] py-[24px]">
           <center>
             <span className="flex gap-[30px] items-center">
-              <NavLink className='font-Manrope font-regular text-[18px] text-[#fff]' to="/Home" activeClassName="active">
+              <NavLink className='font-Manrope font-regular text-[18px] text-[#fff]' to="/" activeClassName="active">
                 Home
               </NavLink>
               <NavLink className='font-Manrope font-regular text-[18px] text-[#fff]' to="/Movies_Shows" activeClassName="active">
