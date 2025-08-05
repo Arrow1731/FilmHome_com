@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import genres from "../Components/movies_genres";
 
 // { icons
 import { Play } from "lucide-react";
@@ -15,7 +16,7 @@ import adventure from "../assets/adventure.png";
 import comedy from "../assets/comedy.png";
 import drama from "../assets/drama.png";
 import horror from "../assets/horror.png";
-
+import topaction from "../assets/topaction.png";
 // }
 
 // import MySwiper from "../Components/MySwiper";
@@ -105,11 +106,60 @@ export default class Movie extends Component {
                 </div>
                 <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[265px] rounded-[12px]">
                   <img src={horror} alt="" />
-                  <span className="flex justify-between text-white font-semibold text-[18px]">
+                  <span className="flex j ustify-between text-white font-semibold text-[18px]">
                   Horror
                   <ArrowRight/></span>
                 </div>
               </div>
+            </section>
+            {/* <genres /> */}
+
+            <section>
+
+
+              <div className="mb-[65px] mt-[100px]">
+                <h1 className="text-white text-[40px] font-bold">Popular Top 10 In Genres</h1>
+              </div>
+
+              <div className="flex justify-between">
+                <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[352px] rounded-[12px]">
+                  <img src={topaction} alt="" />
+                  <button className="flex bg-[#E50000] py-[5px] px-[5px] text-white rounded-[8px] mb-[4px]">
+                  Top 10 In
+              </button>
+                  <span className="flex justify-between text-white font-semibold text-[18px]">
+                  Action
+                  <ArrowRight/></span>
+                </div>
+                <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[352px] rounded-[12px]">
+                  <img src={topaction} alt="" />
+                  <button className="flex bg-[#E50000] py-[5px] px-[5px] text-white rounded-[8px] mb-[4px]">
+                  Top 10 In
+              </button>
+                  <span className="flex justify-between text-white font-semibold text-[18px]">
+                  Action
+                  <ArrowRight/></span>
+                </div>
+                <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[352px] rounded-[12px]">
+                  <img src={topaction} alt="" />
+                  <button className="flex bg-[#E50000] py-[5px] px-[5px] text-white rounded-[8px] mb-[4px]">
+                  Top 10 In
+              </button>
+                  <span className="flex justify-between text-white font-semibold text-[18px]">
+                  Action
+                  <ArrowRight/></span>
+                </div>
+                <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[352px] rounded-[12px]">
+                  <img src={topaction} alt="" />
+                  <button className="flex bg-[#E50000] py-[5px] px-[5px] text-white rounded-[8px] mb-[4px]">
+                  Top 10 In
+              </button>
+                  <span className="flex justify-between text-white font-semibold text-[18px]">
+                  Action
+                  <ArrowRight/></span>
+                </div>
+              </div>
+
             </section>
           </main>
         </div>
