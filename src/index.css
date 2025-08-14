@@ -65,11 +65,11 @@ body{
     }
 }
 
-.header_nav_img{
+/* .header_nav_img{
     width: 100%;
     height: 860px;
     background: url('./assets/container_header.png') no-repeat center center;
-}
+} */
 
 .fff_eee{
     background-image: url('./assets/Card.png');
