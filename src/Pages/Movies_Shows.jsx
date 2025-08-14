@@ -7,6 +7,8 @@ import { Plus } from "lucide-react";
 import { ThumbsUp } from "lucide-react";
 import { Volume2 } from "lucide-react";
 import { ArrowRight } from 'lucide-react';
+import { Clock } from "lucide-react";
+import { Eye } from "lucide-react";
 // }
 
 // { images
@@ -17,6 +19,7 @@ import comedy from "../assets/comedy.png";
 import drama from "../assets/drama.png";
 import horror from "../assets/horror.png";
 import topaction from "../assets/topaction.png";
+import trend from "../assets/trend.png";
 // }
 
 // import MySwiper from "../Components/MySwiper";
@@ -121,7 +124,7 @@ export default class Movie extends Component {
                 <h1 className="text-white text-[40px] font-bold">Popular Top 10 In Genres</h1>
               </div>
 
-              <div className="flex justify-between">
+              <div className="flex justify-between gap-[30px]">
                 <div className="bg-[#1A1A1A] py-[30px] px-[22px] w-[352px] rounded-[12px]">
                   <img src={topaction} alt="" />
                   <button className="flex bg-[#E50000] py-[5px] px-[5px] text-white rounded-[8px] mb-[4px]">
@@ -161,6 +164,83 @@ export default class Movie extends Component {
               </div>
 
             </section>
+
+            <section>
+
+            <div className="mb-[65px] mt-[100px]">
+                <h1 className="text-white text-[40px] font-bold">Trending Now</h1>
+              </div>
+
+                <div className="flex justify-between gap-[20px]">
+                <div className="bg-[#1A1A1A] p-[20px] w-[283px] rounded-[12px]">
+                <img src={trend} alt="" />
+                <div className="flex justify-between">
+                <div className="bg-[#141414] w-[117px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Clock/>
+                  <p>1h 30min</p>
+                </div>
+                <div className="bg-[#141414] w-[60px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Eye/>
+                  <p>2K</p>
+                </div>
+                </div>
+                </div>
+                <div className="bg-[#1A1A1A] p-[20px] w-[283px] rounded-[12px]">
+                <img src={trend} alt="" />
+                <div className="flex justify-between">
+                <div className="bg-[#141414] w-[117px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Clock/>
+                  <p>1h 30min</p>
+                </div>
+                <div className="bg-[#141414] w-[60px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Eye/>
+                  <p>2K</p>
+                </div>
+                </div>
+                </div>
+                 <div className="bg-[#1A1A1A] p-[20px] w-[283px] rounded-[12px]">
+                <img src={trend} alt="" />
+                <div className="flex justify-between">
+                <div className="bg-[#141414] w-[117px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Clock/>
+                  <p>1h 30min</p>
+                </div>
+                <div className="bg-[#141414] w-[60px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Eye/>
+                  <p>2K</p>
+                </div>
+                </div>
+                </div>
+                <div className="bg-[#1A1A1A] p-[20px] w-[283px] rounded-[12px]">
+                <img src={trend} alt="" />
+                <div className="flex justify-between">
+                <div className="bg-[#141414] w-[117px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Clock/>
+                  <p>1h 30min</p>
+                </div>
+                <div className="bg-[#141414] w-[60px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Eye/>
+                  <p>2K</p>
+                </div>
+                </div>
+                </div>
+                <div className="bg-[#1A1A1A] p-[20px] w-[283px] rounded-[12px]">
+                <img src={trend} alt="" />
+                <div className="flex justify-between">
+                <div className="bg-[#141414] w-[117px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Clock/>
+                  <p>1h 30min</p>
+                </div>
+                <div className="bg-[#141414] w-[60px] flex text-[#999999] mt-[20px] p-[12px] rounded-[51px] gap-[2px]">
+                  < Eye/>
+                  <p>2K</p>
+                </div>
+                </div>
+                </div>
+                </div>
+            </section>
+
+
           </main>
         </div>
       </div>
