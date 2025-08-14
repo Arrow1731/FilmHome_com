@@ -19,7 +19,7 @@ export default class Home extends Component {
         <main className='container mt-[150px]'>
           <section>
             <div>
-              {/* <h2 className='font-Manrope font-bold text-[38px] text-[#fff]'>We Provide you streaming experience across various devices.</h2> */}
+              {/* <h2 className='font-Manrope font-bold text-[38px] text-[#fff]'>We Provide you streaming experience across various devices.</h2> */}   
               <p className='font-Manrope font-regular text-[18px] text-[#999999]'>With StreamVibe, you can enjoy your favorite movies and TV shows anytime, anywhere. Our platform is designed to be compatible with a wide range of devices, ensuring that you never miss a moment of entertainment.</p>
             </div>
             <div className=''>
