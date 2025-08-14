@@ -118,7 +118,7 @@ export default class Movie extends Component {
 
 
               <div className="mb-[65px] mt-[100px]">
-                <h1 className="text-white text-[40px] font-bold">Popular Top 10 In Genre</h1>
+                <h1 className="text-white text-[40px] font-bold">Popular Top 10 In Genres</h1>
               </div>
 
               <div className="flex justify-between">
